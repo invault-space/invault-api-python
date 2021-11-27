@@ -1,0 +1,689 @@
+{
+    "methods": [
+        {
+            "name": "queryAssets",
+            "params": {},
+            "result": {
+                "status": 0,
+                "assetList": [
+                    {
+                        "assetCode": "CLV",
+                        "fullLogoUrl": "https://cdn.superwalletcustody.space/coin-icons/86.png",
+                        "assetName": "CLV",
+                        "canDeposit": true,
+                        "canWithdraw": true,
+                        "amountUsable": "65.068000000000000000",
+                        "amountFrozen": "0",
+                        "amountAll": "65.068000000000000000"
+                    },
+                    {
+                        "assetCode": "BNB",
+                        "fullLogoUrl": "https://cdn.superwalletcustody.space/coin-icons/1.png",
+                        "assetName": "BNB",
+                        "canDeposit": false,
+                        "canWithdraw": false,
+                        "amountUsable": "31.068000000000000000",
+                        "amountFrozen": "21.068000000000000000",
+                        "amountAll": "52.136000000000000000"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "queryAssetByCode",
+            "params": {
+                "assetCode": "BNB"
+            },
+            "result": {
+                "assetCode": "BNB",
+                "fullLogoUrl": "https://cdn.superwalletcustody.space/coin-icons/1.png",
+                "assetName": "BNB",
+                "canDeposit": false,
+                "canWithdraw": false,
+                "amountUsable": "31.068000000000000000",
+                "amountFrozen": "21.068000000000000000",
+                "amountAll": "52.136000000000000000",
+                "coinList": [
+                    {
+                        "network": "BEP20",
+                        "chainCoin": "BSC",
+                        "displayDecimals": 4,
+                        "coinAlias": "Binance Smart Chain(BSC)",
+                        "coinCode": "BNB_BSC",
+                        "amountUsable": null,
+                        "amountFrozen": null,
+                        "amountAll": null,
+                        "canDeposit": false,
+                        "canWithdraw": false
+                    },
+                    {
+                        "network": "BSC",
+                        "chainCoin": "BSC",
+                        "displayDecimals": 5,
+                        "coinAlias": "BSC",
+                        "coinCode": "BSC",
+                        "amountUsable": "31.068000000000000000",
+                        "amountFrozen": "21.068000000000000000",
+                        "amountAll": "52.136000000000000000",
+                        "canDeposit": false,
+                        "canWithdraw": false
+                    }
+                ]
+            }
+        },
+        {
+            "name": "queryCoins",
+            "params": {},
+            "result": [
+                {
+                    "assetCode": "CLV",
+                    "fullLogoUrl": "https://cdn.superwalletcustody.space/coin-icons/86.png",
+                    "coinCode": "CLV",
+                    "coinName": "CLV",
+                    "coinAlias": "CLV",
+                    "networkName": "",
+                    "decimals": 18,
+                    "displayDecimals": 8,
+                    "network": "CLV",
+                    "chainCoin": "CLV",
+                    "feeCoin": "CLV",
+                    "feeBusiness": "0.001000000000000000",
+                    "withdrawMin": 0.02,
+                    "depositMin": 0.02,
+                    "withdrawMax": 111111111111,
+                    "tokenAddress": "CLV",
+                    "isToken": false,
+                    "isMemo": false,
+                    "memoRegex": "",
+                    "chainType": "CLV",
+                    "confirmations": null,
+                    "addressRegex": "^[5][a-km-zA-HJ-NP-Z1-9]{46,48}$",
+                    "label": "",
+                    "amountUsable": "65.068000000000000000",
+                    "amountFrozen": null,
+                    "amountAll": "65.068000000000000000",
+                    "canDeposit": true,
+                    "canWithdraw": true
+                },
+                {
+                    "assetCode": "BNB",
+                    "fullLogoUrl": "https://cdn.superwalletcustody.space/coin-icons/1.png",
+                    "coinCode": "BSC",
+                    "coinName": "BSC",
+                    "coinAlias": "BSC",
+                    "networkName": "Binance Smart Chain(BSC)",
+                    "decimals": 18,
+                    "displayDecimals": 5,
+                    "network": "BSC",
+                    "chainCoin": "BSC",
+                    "feeCoin": "BSC",
+                    "feeBusiness": "0.010000000000000000",
+                    "withdrawMin": 0.02,
+                    "depositMin": 0.01,
+                    "withdrawMax": 100,
+                    "tokenAddress": "",
+                    "isToken": false,
+                    "isMemo": true,
+                    "memoRegex": "12121222",
+                    "chainType": "ETH",
+                    "confirmations": 0.02,
+                    "addressRegex": "^0x[a-fA-F0-9]{40}$",
+                    "label": "tag",
+                    "amountUsable": "31.068000000000000000",
+                    "amountFrozen": "21.068000000000000000",
+                    "amountAll": "52.136000000000000000",
+                    "canDeposit": false,
+                    "canWithdraw": false
+                }
+            ]
+        },
+        {
+            "name": "queryCoinByCode",
+            "params": {
+                "coinCode": "BSC"
+            },
+            "result": {
+                "assetCode": "BNB",
+                "fullLogoUrl": "https://cdn.superwalletcustody.space/coin-icons/1.png",
+                "coinCode": "BSC",
+                "coinName": "BSC",
+                "coinAlias": "BSC",
+                "networkName": "Binance Smart Chain(BSC)",
+                "decimals": 18,
+                "displayDecimals": 5,
+                "network": "BSC",
+                "chainCoin": "BSC",
+                "feeCoin": "BSC",
+                "feeBusiness": "0.010000000000000000",
+                "withdrawMin": 0.02,
+                "depositMin": 0.01,
+                "withdrawMax": 100,
+                "tokenAddress": "",
+                "isToken": false,
+                "isMemo": true,
+                "memoRegex": "12121222",
+                "chainType": "ETH",
+                "confirmations": 0.02,
+                "addressRegex": "^0x[a-fA-F0-9]{40}$",
+                "label": "tag",
+                "amountUsable": "31.068000000000000000",
+                "amountFrozen": "21.068000000000000000",
+                "amountAll": "52.136000000000000000",
+                "canDeposit": false,
+                "canWithdraw": false
+            }
+        },
+        {
+            "name": "queryAddressesByCoinCode",
+            "params": {
+                "coinCode": "BSC",
+                "pageNum": 0
+            },
+            "result": {
+                "coinCode": "CLV",
+                "addressList": [
+                    {
+                        "address": "5HejAfdWBh5voBx9FYBjtzXuK3YGfsEiteZqBQ6SghyBzrUK"
+                    },
+                    {
+                        "address": "5Fd1x5cNjKE3GkhGotHWPDEW7mrdcmB9AdjQ4PDUvWQwN5DP"
+                    },
+                    {
+                        "address": "5DC6vUJrjFrig5rdiUPWdnbruKNbovXbt3WdycK1zpe99LvF"
+                    },
+                    {
+                        "address": "5H4eMe6npkyNsb5xnysw4QESycDPLf6Dmvyrb2j9gpmbCNVP"
+                    },
+                    {
+                        "address": "5FcvLcqqnkxq2dPFHzXiLud9qinjxuzyDVDNHM3PDfBJLE14"
+                    },
+                    {
+                        "address": "5CoBiUFPGvwTxrV3rCduKApgoTg9XH1Esqnq5ed5nspWciKb"
+                    },
+                    {
+                        "address": "0x1b10b736cbc233bce60118178d02ecbba4c00000"
+                    },
+                    {
+                        "address": "5H4xdQQiBFKSGpm2mLQhoEQt9nPWdTUV9YN92NFpEVB5H5D9"
+                    },
+                    {
+                        "address": "5HQZCJcpnf8Uqd38hrXiureYKCZLNvAYXzxkE3Es6fmH5MfD"
+                    },
+                    {
+                        "address": "5EtiShd75EAreGyfQtUJb6YpgNDLeEmEo4oTGSPhMnYeWMeJ"
+                    }
+                ],
+                "pageNum": 1,
+                "pageSize": 1000,
+                "total": 10,
+                "size": 1000
+            }
+        },
+        {
+            "name": "queryAddressesInfo",
+            "params": {
+                "addressList": [
+                    {
+                        "address": "0x1b10b736cbc233bce60118178d02ecbba4c00000",
+                        "memo": "123423423"
+                    },
+                    {
+                        "address": "n2GTZYadZnWtb3GausUiC8Gb5NsiKyywhy"
+                    },
+                    {
+                        "address": "TQcqykE9RcUajBqy1Thpmu9txyENfigVuv",
+                        "memo": ""
+                    },
+                    {
+                        "address": "mo7PBDC68rRQ4K7vr5Gf5HDAWNKkojoitA",
+                        "memo": ""
+                    }
+                ],
+                "coinCode": "CLV"
+            },
+            "result": [
+                {
+                    "address": "0x1b10b736cbc233bce60118178d02ecbba4c00000",
+                    "memo": null
+                },
+                {
+                    "address": "TQcqykE9RcUajBqy1Thpmu9txyENfigVuv",
+                    "memo": null
+                },
+                {
+                    "address": "TQcqykE9RcUajBqy1Thpmu9txyENfigVuv",
+                    "memo": null
+                },
+                {
+                    "address": "TQcqykE9RcUajBqy1Thpmu9txyENfigVuv",
+                    "memo": null
+                },
+                {
+                    "address": "mo7PBDC68rRQ4K7vr5Gf5HDAWNKkojoitA",
+                    "memo": null
+                }
+            ]
+        },
+        {
+            "name": "checkAddress",
+            "params": {
+                "address": "0x4734537B23F023ccacCe02972084dc0102183834",
+                "coinCode": "ETH"
+            },
+            "result": {
+                "coinCode": "ETH",
+                "address": null,
+                "status": 5
+            }
+        },
+        {
+            "name": "getDepositAddress",
+            "params": {
+                "coinCode": "CLV"
+            },
+            "result": [
+                {
+                    "address": "1Lt7VuDty2d3VwN71My4RafvNDZWutJMSZ"
+                },
+                {
+                    "address": "1Ay8VXxbJ5gkbmmFVMqF1SqnfP6BPdqu1N"
+                }
+            ]
+        },
+        {
+            "name": "getDepositAddress",
+            "params": {
+                "coinCode": "XRP"
+            },
+            "result": [
+                {
+                    "address": "rEtC4xAYJvtwDLJ9jZ4kHRHKbNoLLxSnfb",
+                    "memo": "1891539765"
+                },
+                {
+                    "address": "rEtC4xAYJvtwDLJ9jZ4kHRHKbNoLLxSnfb",
+                    "memo": "765438625"
+                }
+            ]
+        },
+        {
+            "name": "withdrawApply",
+            "params": {
+                "address": "5DC6vUJrjFrig5rdiUPWdnbruKNbovXbt3WdycK1zpe99LvF",
+                "amount": "1",
+                "coinCode": "CLV",
+                "tokenAddress": "CLV",
+                "request_order_id": "unique_12345",
+                "memo": "918303154",
+                "timestamp": "123456789123"
+            },
+            "result": {
+                "success": true,
+                "message": null,
+                "requestOrderId": "Q12345",
+                "coinCode": "CLV",
+                "address": "5DC6vUJrjFrig5rdiUPWdnbruKNbovXbt3WdycK1zpe99LvF",
+                "memo": "918303154",
+                "amount": "1",
+                "timestamp": 1631527266688
+            }
+        },
+        {
+            "name": "queryByReqOrderId",
+            "params": {
+                "reqOrderId": "unique_12345"
+            },
+            "result": {
+                "custodyOrderId": "O1421117489923751936",
+                "requestOrderId": "unique_12345",
+                "orderType": "withdraw",
+                "orderStatus": 1,
+                "description": null,
+                "orderTimeStamp": null,
+                "coinCode": "ETH",
+                "assetCode": "ETH",
+                "fromAddress": "5HjKrwc7okP3uQaRYLBevfgQiupfcz7g99gzw2VkbDNEbDvy",
+                "toAddress": "5H1Ehz9o9bj8K9faxhE7Bxvf61adAVp3y7QZ8CK7fJgbbhxi",
+                "amount": 8,
+                "memo": "123456",
+                "transactionFee": 0,
+                "feeCoin": null,
+                "orderFee": 0,
+                "transactionHash": "0x869d061d9159b6ba6afd5e06da32cc571576a4b833162b544ff3d480c5fee07f",
+                "transactionStatus": 1,
+                "transactionType": null,
+                "blockHeight": 1955496,
+                "blockHash": "0x1b40913a952050d90879895422bac1309992c12d1520bacad4dabe9952567a6a",
+                "chainCoin": "ETH",
+                "tokenAddress": "test-1Ehz9o9bj8K9faxhE7Bxvf61adAVp3y7QZ8CK7fJgbbhxi",
+                "transactionIndex": 5
+            }
+        },
+        {
+            "name": "transactions",
+            "params": {
+                "coinCode": "CLV"
+            },
+            "result": [
+                {
+                    "custodyOrderId": "O1421129840832020480",
+                    "coinCode": "CLV",
+                    "coinName": "CLV",
+                    "assetCode": null,
+                    "toAddress": "5FKqR6KFoG3XcyqTVRezQVKyzEPCyLVuvZsbDWj33KBuNFL2",
+                    "addressSourceType": null,
+                    "memo": null,
+                    "orderType": "withdraw",
+                    "orderStatus": "1",
+                    "orderTimestamp": null,
+                    "endTime": 1608008208820,
+                    "amount": "86.1",
+                    "transactionHash": null,
+                    "blockHeight": "null",
+                    "blockHash": null,
+                    "chainCoin": null,
+                    "tokenAddress": null,
+                    "timeStamp": 1608008208820,
+                    "transactionStatus": "null",
+                    "transactionIndex": "null"
+                },
+                {
+                    "custodyOrderId": "O1421130706578309120",
+                    "coinCode": "CLV",
+                    "coinName": "CLV",
+                    "assetCode": null,
+                    "toAddress": "5FiTarH9mB8nKLFgyjRDDENZSyVXYEzf1iGkbGBKYQU3p9QY",
+                    "addressSourceType": null,
+                    "memo": null,
+                    "orderType": "withdraw",
+                    "orderStatus": "1",
+                    "orderTimestamp": null,
+                    "endTime": 1608008208820,
+                    "amount": "88",
+                    "transactionHash": null,
+                    "blockHeight": "null",
+                    "blockHash": null,
+                    "chainCoin": null,
+                    "tokenAddress": null,
+                    "timeStamp": 1608008208820,
+                    "transactionStatus": "null",
+                    "transactionIndex": "null"
+                }
+            ]
+        },
+        {
+            "name": "transactionById",
+            "params": {
+                "custodyOrderId": "O1421117489923751936",
+                "orderType": "deposit"
+            },
+            "result": {
+                "custodyOrderId": "O1421117489923751936",
+                "coinCode": "CLV",
+                "coinName": "CLV",
+                "assetCode": "CLV",
+                "toAddress": "5FKqR6KFoG3XcyqTVRezQVKyzEPCyLVuvZsbDWj33KBuNFL2",
+                "addressSourceType": null,
+                "memo": null,
+                "orderType": "deposit",
+                "orderStatus": "1",
+                "orderTimestamp": "null",
+                "endTime": null,
+                "amount": "88",
+                "transactionHash": "0x1dc4b773621a372503135a60d28f090b6fecccdb8e7ed99604520df04c629b27",
+                "blockHeight": null,
+                "blockHash": "0xd8f814671a4592c572799bdc05a70273edeb950e077f63603a766936a454f100",
+                "chainCoin": "CLV",
+                "decimals": 18,
+                "tokenAddress": null,
+                "timeStamp": null,
+                "transactionStatus": null,
+                "transactionIndex": null
+            }
+        },
+        {
+            "name": "pendingTransactions",
+            "params": {
+                "beginTime": 1234567890123,
+                "coinCode": "CLV"
+            },
+            "result": [
+                {
+                    "custodyOrderId": "O1421117489923751936",
+                    "coinCode": "CLV",
+                    "coinName": null,
+                    "assetCode": "CLV",
+                    "toAddress": "5FKqR6KFoG3XcyqTVRezQVKyzEPCyLVuvZsbDWj33KBuNFL2",
+                    "addressSourceType": null,
+                    "memo": null,
+                    "orderType": "withdraw",
+                    "orderStatus": null,
+                    "orderTimestamp": null,
+                    "endTime": null,
+                    "amount": null,
+                    "transactionHash": "5",
+                    "blockHeight": null,
+                    "blockHash": "4",
+                    "chainCoin": "CLV",
+                    "tokenAddress": "TEST-5FKqR6KFoG3XcyqTVRezQVKyzEPCyLVuvZsbDWj33KBuNFL2",
+                    "timeStamp": null,
+                    "transactionStatus": null,
+                    "transactionIndex": null,
+                    "confirmingThreshold": 0,
+                    "confirmedNum": 0
+                },
+                {
+                    "custodyOrderId": "O1421139045840322560",
+                    "coinCode": "CLV",
+                    "coinName": null,
+                    "assetCode": "CLV",
+                    "toAddress": "5FKqR6KFoG3XcyqTVRezQVKyzEPCyLVuvZsbDWj33KBuNFL2",
+                    "addressSourceType": null,
+                    "memo": null,
+                    "orderType": "withdraw",
+                    "orderStatus": null,
+                    "orderTimestamp": null,
+                    "endTime": null,
+                    "amount": null,
+                    "transactionHash": "j",
+                    "blockHeight": null,
+                    "blockHash": "g",
+                    "chainCoin": null,
+                    "tokenAddress": null,
+                    "timeStamp": null,
+                    "transactionStatus": null,
+                    "transactionIndex": null,
+                    "confirmingThreshold": 0,
+                    "confirmedNum": 0
+                },
+                {
+                    "custodyOrderId": "O1425421598961172480",
+                    "coinCode": "CLV",
+                    "coinName": null,
+                    "assetCode": "CLV",
+                    "toAddress": "5G91wL8h5JDcGewZQ79VjT2hdUeCkN5Gy94xdVV2dMrW36R3",
+                    "addressSourceType": null,
+                    "memo": "ccc",
+                    "orderType": "withdraw",
+                    "orderStatus": null,
+                    "orderTimestamp": null,
+                    "endTime": null,
+                    "amount": null,
+                    "transactionHash": null,
+                    "blockHeight": null,
+                    "blockHash": null,
+                    "chainCoin": null,
+                    "tokenAddress": "CLV",
+                    "timeStamp": null,
+                    "transactionStatus": null,
+                    "transactionIndex": null,
+                    "confirmingThreshold": 0,
+                    "confirmedNum": 0
+                }
+            ]
+        },
+        {
+            "name": "pendingTransactionById",
+            "params": {
+                "custodyOrderId": "O1421117489923751936",
+                "orderType": "withdraw"
+            },
+            "result": {
+                "custodyOrderId": "O1421117489923751936",
+                "coinCode": "CLV",
+                "coinName": "CLV",
+                "assetCode": "CLV",
+                "toAddress": "5FKqR6KFoG3XcyqTVRezQVKyzEPCyLVuvZsbDWj33KBuNFL2",
+                "addressSourceType": null,
+                "memo": null,
+                "orderType": "withdraw",
+                "orderStatus": "-1",
+                "orderTimestamp": "1608008208833",
+                "endTime": 1608008208833,
+                "amount": "2",
+                "transactionHash": "5",
+                "blockHeight": null,
+                "blockHash": "4",
+                "chainCoin": "CLV",
+                "tokenAddress": "TEST-5FKqR6KFoG3XcyqTVRezQVKyzEPCyLVuvZsbDWj33KBuNFL2",
+                "timeStamp": null,
+                "transactionStatus": null,
+                "transactionIndex": null,
+                "confirmedNum": 0,
+                "confirmations": 0,
+                "decimals": 18
+            }
+        },
+        {
+            "name": "transactionByTxHash",
+            "params": {
+                "coinCode": "ETH",
+                "txHash": "0x869d061d9159b6ba6afd5e06da32cc571576a4b833162b544ff3d480c5fee07f"
+            },
+            "result": {
+                "custodyOrderId": "O1421138423309139968",
+                "coinCode": "ETH",
+                "coinName": "ETH",
+                "assetCode": "ETH",
+                "toAddress": "5H1Ehz9o9bj8K9faxhE7Bxvf61adAVp3y7QZ8CK7fJgbbhxi",
+                "addressSourceType": null,
+                "memo": "123456",
+                "orderType": "withdraw",
+                "orderStatus": "1",
+                "orderTimestamp": "1608008208820",
+                "endTime": 1608008208820,
+                "amount": "8",
+                "transactionHash": "0x869d061d9159b6ba6afd5e06da32cc571576a4b833162b544ff3d480c5fee07f",
+                "blockHeight": null,
+                "blockHash": "0x1b40913a952050d90879895422bac1309992c12d1520bacad4dabe9952567a6a",
+                "chainCoin": "ETH",
+                "decimals": 18,
+                "tokenAddress": "test-1Ehz9o9bj8K9faxhE7Bxvf61adAVp3y7QZ8CK7fJgbbhxi",
+                "timeStamp": null,
+                "transactionStatus": null,
+                "transactionIndex": null
+            }
+        },
+        {
+            "name": "blockHeight",
+            "params": {},
+            "result": [
+                {
+                    "coinCode": "ETH",
+                    "blockHeight": "11258460",
+                    "chainCoin": "ETH"
+                },
+                {
+                    "coinCode": "USDT_ERC20",
+                    "blockHeight": "11258460",
+                    "chainCoin": "ETH"
+                },
+                {
+                    "coinCode": "BNB_BSC",
+                    "blockHeight": "13358248",
+                    "chainCoin": "BSC"
+                },
+                {
+                    "coinCode": "BTC",
+                    "blockHeight": "0",
+                    "chainCoin": "BTC"
+                },
+                {
+                    "coinCode": "USDT_TRC20",
+                    "blockHeight": "34641725",
+                    "chainCoin": "TRX"
+                },
+                {
+                    "coinCode": "TRX",
+                    "blockHeight": "34641725",
+                    "chainCoin": "TRX"
+                },
+                {
+                    "coinCode": "CLV",
+                    "blockHeight": "0",
+                    "chainCoin": "CLV"
+                },
+                {
+                    "coinCode": "BSC",
+                    "blockHeight": "13358248",
+                    "chainCoin": "BSC"
+                },
+                {
+                    "coinCode": "BTT",
+                    "blockHeight": "34641725",
+                    "chainCoin": "TRX"
+                },
+                {
+                    "coinCode": "JUST",
+                    "blockHeight": "34641725",
+                    "chainCoin": "TRX"
+                },
+                {
+                    "coinCode": "DOT",
+                    "blockHeight": "7568448",
+                    "chainCoin": "DOT"
+                },
+                {
+                    "coinCode": "WND",
+                    "blockHeight": "7865213",
+                    "chainCoin": "WND"
+                },
+                {
+                    "coinCode": "ATOM",
+                    "blockHeight": "7806558",
+                    "chainCoin": "ATOM"
+                }
+            ]
+        },
+        {
+            "name": "transactionByBlockHeight",
+            "params": {
+                "coinCode": "ETH",
+                "blockHeight": 13189073
+            },
+            "result": {
+                "custodyOrderId": "O1425074584968757248",
+                "coinCode": "ETH",
+                "coinName": "ETH",
+                "assetCode": "ETH",
+                "toAddress": "0x4734537B23F023ccacCe02972084dc0102183834",
+                "addressSourceType": "transfer_out",
+                "memo": "memo-test",
+                "orderType": "deposit",
+                "orderStatus": "1",
+                "orderTimestamp": "1234567890123",
+                "endTime": 1234567890123,
+                "amount": "1",
+                "transactionHash": "0x636d54821f9ef6e4332d6d23a6a4f8105aa03c952f645524d5321daafea49556",
+                "blockHeight": null,
+                "blockHash": "0x174af6b12a8d9e041914102751c27e3dd6d7d43b9dd7ebb55adbc481354d7b11",
+                "chainCoin": "ETH",
+                "decimals": 18,
+                "tokenAddress": "address-test",
+                "timeStamp": null,
+                "transactionStatus": null,
+                "transactionIndex": null
+            }
+        }
+    ]
+}
